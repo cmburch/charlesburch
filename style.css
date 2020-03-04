@@ -622,6 +622,10 @@ footer {
   height: 90px;
 }
 
+.project__desc_info{
+  height: 18px;
+}
+
 .test {
   position: relative;
   height: 225px;
