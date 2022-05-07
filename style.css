@@ -121,28 +121,27 @@ body {
 
   .banner-btn {
     margin-left: 10px;
-    border-radius: 22px;
-
+    border-radius: 8px;
     padding: 1.1rem 3.1rem;
     text-transform: uppercase;
     letter-spacing: var(--mainSpacing);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 600;
     background: var(--primaryColor);
     color: var(--mainBlack);
-    border: 1px solid var(--primaryColor);
     transition: var(--mainTransition);
     cursor: pointer;
     background-color:#fe6192;
     color: white;
     /* border-radius: 2rem; */
 }
+
 .banner-btn:hover{
-  background: #4fd5ed;
+  filter: contrast(280%);
 }
 
 .banner-btn2:hover{
-  background: #4fd5ed;
+  filter: contrast(280%);
 }
 .banner-btn2 {
   background: #6f43d6;
@@ -414,11 +413,7 @@ a {
 	.nav {
 		flex-direction: column;
 		align-items: center;
-    	.nav{
-		width: 80%;
-		margin: 0 auto;
-		max-width: 1150px;
-	}
+
 	}
 
 }
@@ -637,6 +632,6 @@ footer {
     margin-top: 1rem;
     position: absolute;
     bottom: 0;
-    width: 100%;
-    }
+    width: 100%;
+  }
     
